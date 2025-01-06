@@ -27,10 +27,13 @@ jobs:
       run: git clone https://github.com/bulletdev/pipeline-automatizador.git
 
     - name: Navigate to repository directory
-      run: cd pipeline-automatizador
+      working-directory: pipeline-automatizador
+      run: ls -la 
 
     - name: Compile the project
+      working-directory: pipeline-automatizador
       run: javac PipelineConfigApp.java
 
     - name: Run the application
+      working-directory: pipeline-automatizador
       run: java PipelineConfigApp
