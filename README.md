@@ -1,119 +1,132 @@
-# 🚀 Configurador de Pipeline CI/CD
+## 🚀 CI/CD Pipeline Configurator
 
-## 📋 Índice
-- [Sobre o Projeto](#-sobre-o-projeto)
-- [Funcionalidades](#-funcionalidades)
-- [Requisitos do Sistema](#-requisitos-do-sistema)
-- [Instalação](#-instalação)
-- [Como Usar](#-como-usar)
-- [Estrutura do Projeto](#-estrutura-do-projeto)
+## 📋 Index
+- [About the Project](#-about-the-project)
+- [Features](#-features)
+- [System Requirements](#-system-requirements)
+- [Installation](#-installation)
+- [How to Use](#-how-to-use)
+- [Project Structure](#-project-structure)
 - [Troubleshooting](#-troubleshooting)
-- [Contribuição](#-contribuição)
-- [Licença](#-licença)
+- [Contribution](#-contribution)
+- [License](#-license)
 
-## 🎯 Sobre o Projeto
+## 🎯 About the Project
 
-O Configurador de Pipeline CI/CD é uma aplicação Java  que permite criar e configurar pipelines de integração e entrega contínua de forma simples e intuitiva. 
-Com ela, você pode gerar configurações para Jenkins e Docker sem precisar editar arquivos manualmente.
+The CI/CD Pipeline Configurator is a Java application that allows you to create and configure continuous integration and delivery pipelines in a simple and intuitive way.
+With it, you can generate configurations for Jenkins and Docker without having to edit files manually.
 
-## ✨ Funcionalidades
+## ✨ Features
 
-### Interface Gráfica 🖥️
-- Formulário intuitivo para inserção de dados
-- Visualização em tempo real do status das operações
-- Suporte a múltiplos projetos
+### Graphical Interface 🖥️
 
-### Configurações Suportadas 🛠️
-- **Ferramentas de Build:**
-  - Maven 📦
-  - Gradle 🐘
-  - npm 📚
+- Easy-to-use interface
+- Intuitive form for entering data
+- Real-time visualization of the status of operations
+- Support for multiple projects
 
-### Recursos Principais 🌟
-- Geração automática de Jenkinsfile
-- Configuração de Docker (opcional)
-- Inicialização de repositório Git
-- Validação de inputs
-- Log de operações
+### Supported configurations 🛠️
 
-## 💻 Requisitos do Sistema
+- Build tools
+    - Maven 📦
+    - Gradle 🐘
+    - npm 📚
+    - Docker 🐳
+  
+### Main Features 🌟
+- Automatic generation of Jenkinsfile
+- Docker configuration (optional)
+- Git repository initialization
+- Input validation
+- Operations log
+- File generation status
 
-- Java Development Kit (JDK) 17 ou superior
-- Git instalado no sistema
-- Ambiente gráfico para execução do Swing
-- 512MB de RAM (mínimo)
-- 100MB de espaço em disco
 
-## 🚀 Instalação
+## 💻 System requirements
 
-1. **Clone o repositório:**
+- Java Development Kit (JDK) 17 or higher
+- Git installed on the system
+- Graphical environment for running Swing
+- 512MB of RAM (minimum)
+- 100MB of disk space
+- Internet connection (for downloading dependencies)
+- Maven, Gradle or npm (optional)
+- Docker (optional)
+- Jenkins (optional)
+- Docker Compose (optional)
+
+
+## 🚀 Installation
+
+1. **Clone the repository:**
+
 ```bash
-git clone https://bulletdev/pipeline-configurator.git
-cd pipeline-configurator
+git clone https://bulletdev/pipeline-automatizador.git
+cd pipeline-automatizer
 ```
 
-2. **Compile o projeto:**
+2. **Compile the project:**
 ```bash
 javac PipelineConfigApp.java
 ```
 
-3. **Execute a aplicação:**
+3. **Run the application:**
 ```bash
 java PipelineConfigApp
 ```
 
-## 📖 Como Usar
+## 📖 How to use
 
-### 1. Configuração Inicial 🎮
-1. Abra a aplicação
-2. Preencha os campos obrigatórios:
-   - Nome do Projeto
-   - URL do Repositório
-   - Branch (padrão: main)
+### 1. Initial configuration 🎮
+1. Open the application
+2. Fill in the required fields:
+    - Project Name
+    - Repository URL
+    - Branch (default: main)
 
-### 2. Configuração do Build 🔧
-1. Selecione a ferramenta de build (Maven, Gradle ou npm)
-2. Configure os comandos de build desejados
-3. Marque a opção Docker se desejar incluir configurações de containerização
+### 2. Build configuration 🔧
+1. Select the build tool (Maven, Gradle or npm)
+2. Configure the desired build commands
+3. Check the Docker option if you want to include containerization settings
 
-### 3. Geração do Pipeline ⚡
-1. Clique no botão "Create Pipeline"
-2. Aguarde a conclusão do processo
-3. Verifique os arquivos gerados na pasta `pipeline-configs/[nome-do-projeto]`
+### 3 Pipeline generation ⚡
+1. Click on the “Create Pipeline” button
+2. Wait for the process to finish
+3. Check the files generated in the `pipeline-configs/[project-name]` folder.
 
 
 ## ❗ Troubleshooting
 
-### Possiveis Features e Soluções 🔍
+### Possible Features and Solutions 🔍
 
-1. **Erro ao inicializar Git**
-   - Verifique se o Git está instalado
-   - Confirme as permissões do diretório
+1. **Error initializing Git**
+    - Check that Git is installed
+    - Confirm directory permissions
 
-2. **Interface não carrega**
-   - Verifique a versão do Java
-   - Confirme se há ambiente gráfico disponível
+2. **Interface not loading**
+    - Check Java version
+    - Check if a graphical environment is available
 
-3. **Erro na geração de arquivos**
-   - Verifique permissões de escrita
-   - Confirme se o diretório não está em uso
+3. **File generation error
+    - Check write permissions
+    - Check that the directory is not in use
 
-## 🤝 Contribuição
+## 🤝 Contribution
 
-1. Faça um Fork do projeto
-2. Crie uma Branch para sua Feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a Branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
+1. Fork the project
+2. Create a Branch for your Feature (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## 📝 Licença
+## 📝 License
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+This project is under the MIT license. See the [LICENSE](LICENSE) file for more details.
 
 ---
 
-💡 **Dica:** Mantenha sempre sua versão do Java atualizada para melhor compatibilidade.
+💡 **Tip:** Always keep your Java version up to date for best compatibility.
 
-📫 **Contato:** Para sugestões ou problemas, abra uma [issue](https://github.com/bulletdev/pipeline-configurator/issues).
+📫 **Contact:** For suggestions or problems, open an [issue](https://github.com/bulletdev/pipeline-automatizador/issues).
 
-🌟 Se este projeto ajudou você, considere dar uma estrela no GitHub!
+🌟 If this project has helped you, consider giving it a star on GitHub!
