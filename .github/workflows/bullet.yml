@@ -30,9 +30,9 @@ jobs:
       run: ls -la pipeline-automatizador
 
     - name: Compile the project
-      working-directory: src/main/java/com/pipelinetools/PipelineConfigApp.java
+      working-directory: pipeline-automatizador/src/main/java/com/pipelinetools
       run: javac PipelineConfigApp.java
 
     - name: Run the application
-      working-directory: src/main/java/com/pipelinetools/PipelineConfigApp.java
+      working-directory: pipeline-automatizador/src/main/java/com/pipelinetools
       run: java PipelineConfigApp
