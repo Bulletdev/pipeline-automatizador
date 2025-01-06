@@ -46,7 +46,7 @@ With it, you can generate configurations for Jenkins and Docker without having t
 
 ## 💻 System requirements
 
-- Java Development Kit (JDK) 17 or higher
+- Java Development Kit (JDK) 21 or higher
 - Git installed on the system
 - Graphical environment for running Swing
 - 512MB of RAM (minimum)

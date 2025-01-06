@@ -4,13 +4,13 @@ public class DockerConfig {
     public static String generateDockerfile(String buildTool) {
         return switch (buildTool) {
             case "Maven" -> """
-                FROM openjdk:17-jdk-slim
+                FROM openjdk:22-jdk-slim
                 WORKDIR /app
                 COPY target/*.jar app.jar
                 ENTRYPOINT ["java","-jar","app.jar"]
                 """;
             case "Gradle" -> """
-                FROM openjdk:17-jdk-slim
+                FROM openjdk:22-jdk-slim
                 WORKDIR /app
                 COPY build/libs/*.jar app.jar
                 ENTRYPOINT ["java","-jar","app.jar"]
