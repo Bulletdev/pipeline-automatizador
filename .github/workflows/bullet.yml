@@ -25,7 +25,7 @@ jobs:
 
     - name: Clone the repository
       run: git clone https://github.com/bulletdev/pipeline-automatizador.git 
-        cd pipeline-automatizer
+        cd pipeline-automatizador
 
     - name: Compile the project
       run: javac PipelineConfigApp.java
