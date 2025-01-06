@@ -29,6 +29,9 @@ jobs:
     - name: List files in repository directory
       run: ls -la pipeline-automatizador
 
+    - name: List all files in the project
+      run: find pipeline-automatizador -type f
+
     - name: Compile the project
       working-directory: pipeline-automatizador/src/main/java/com/pipelinetools
       run: javac -cp . com/pipelinetools/PipelineConfigApp.java
