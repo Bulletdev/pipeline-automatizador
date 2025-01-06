@@ -24,12 +24,15 @@ jobs:
         overwrite-settings: true
 
     - name: Clone the repository
-      run: |
-        git clone https://github.com/bulletdev/pipeline-automatizador.git # Atualize a URL do repositório aqui
-        cd pipeline-automatizer
+      run: git clone https://github.com/bulletdev/pipeline-automatizador.git
+
+    - name: List files in repository directory
+      run: ls -la pipeline-automatizador
 
     - name: Compile the project
+      working-directory: pipeline-automatizador/src/main/java/com/pipelinetools
       run: javac PipelineConfigApp.java
 
     - name: Run the application
+      working-directory: pipeline-automatizador/src/main/java/com/pipelinetools
       run: java PipelineConfigApp

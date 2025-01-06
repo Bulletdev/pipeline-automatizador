@@ -64,7 +64,7 @@ With it, you can generate configurations for Jenkins and Docker without having t
 
 ```bash
 git clone https://bulletdev/pipeline-automatizador.git
-cd pipeline-automatizer
+cd pipeline-automatizador
 ```
 
 2. **Compile the project:**
