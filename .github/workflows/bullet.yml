@@ -24,8 +24,7 @@ jobs:
         overwrite-settings: true
 
     - name: Clone the repository
-      run: |
-        git clone https://github.com/bulletdev/pipeline-automatizador.git # Atualize a URL do repositório aqui
+      run: git clone https://github.com/bulletdev/pipeline-automatizador.git 
         cd pipeline-automatizer
 
     - name: Compile the project
