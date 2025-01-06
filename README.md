@@ -1,3 +1,5 @@
+[![CodeQL Advanced](https://github.com/Bulletdev/pipeline-automatizador/actions/workflows/codeql.yml/badge.svg)](https://github.com/Bulletdev/pipeline-automatizador/actions/workflows/codeql.yml)
+
 ## 🚀 CI/CD Pipeline Configurator
 
 ## 📋 Index
