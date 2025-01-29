@@ -8,7 +8,6 @@
 - [System Requirements](#-system-requirements)
 - [Installation](#-installation)
 - [How to Use](#-how-to-use)
-- [Project Structure](#-project-structure)
 - [Troubleshooting](#-troubleshooting)
 - [Contribution](#-contribution)
 - [License](#-license) 
@@ -21,7 +20,7 @@ With it, you can generate configurations for Jenkins and Docker without having t
 DEMO  ↓
 
 <details>
-<img src="/example.png">
+<img src="/Public/example.png">
 </details>
 
 
