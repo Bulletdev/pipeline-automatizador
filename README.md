@@ -18,6 +18,13 @@
 The CI/CD Pipeline Configurator is a Java application that allows you to create and configure continuous integration and delivery pipelines in a simple and intuitive way.
 With it, you can generate configurations for Jenkins and Docker without having to edit files manually.
 
+DEMO  ↓
+
+<details>
+<img src="/example.png">
+</details>
+
+
 ## ✨ Features
 
 ### Graphical Interface 🖥️
