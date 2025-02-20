@@ -23,7 +23,7 @@ DEMO  ↓
 <img src="/Public/example.png">
 </details>
 
-
+ 
 ## ✨ Features
 
 ### Graphical Interface 🖥️
