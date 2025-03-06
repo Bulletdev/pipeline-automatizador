@@ -2,7 +2,7 @@
 
 ## 🚀 CI/CD Pipeline Configurator
 
-## 📋 Index
+## 📋 Index 
 - [About the Project](#-about-the-project)
 - [Features](#-features) 
 - [System Requirements](#-system-requirements)
